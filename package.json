@@ -8,7 +8,8 @@
         "test": "npx hardhat test",
         "lint": "eslint --fix .",
         "format": "prettier --write './**/*.{js,ts,css,md,json,sol}' --config ./.prettierrc",
-        "deploy": "npx hardhat run scripts/deploy.ts --network ropsten"
+        "deploy": "npx hardhat run scripts/deploy.ts --network ropsten",
+        "deploy:manage-assets": "npx hardhat run scripts/deploy-manage-assets.ts --network ropsten"
     },
     "author": "",
     "license": "MIT",
